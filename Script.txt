@@ -1,0 +1,353 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "OFFSETUAL HUB",
+   Icon = 0,
+   LoadingTitle = "OFFSETUAL HUB",
+   LoadingSubtitle = "One Script is all you need...",
+   ShowText = "OFFSETUAL",
+   Theme = "Light",
+
+   ToggleUIKeybind = "K",
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false,
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = "OffsetualHub",
+      FileName = "OffsetualConfig"
+   },
+
+   Discord = {
+      Enabled = true,
+      Invite = "ab2z3yaX62",
+      RememberJoins = true
+   },
+
+   KeySystem = true,
+   KeySettings = {
+      Title = "OFFSETUAL HUB",
+      Subtitle = "Key Authentication",
+      Note = "Key: offset\n\nDiscord: https://discord.gg/ab2z3yaX62",
+      FileName = "OffsetualKey",
+      SaveKey = true,
+      GrabKeyFromSite = false,
+      Key = {"offset"}
+   }
+})
+
+-- UNIVERSAL TAB
+local UniversalTab = Window:CreateTab("Universal", "globe")
+UniversalTab:CreateSection("Universal Scripts")
+
+UniversalTab:CreateButton({
+   Name = "Dex",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
+   end,
+})
+
+UniversalTab:CreateParagraph({
+   Title = "Dex",
+   Content = "Custom file explorer UI for Roblox. Allows you to inspect and interact with game objects."
+})
+
+UniversalTab:CreateDivider()
+
+UniversalTab:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+   end,
+})
+
+UniversalTab:CreateParagraph({
+   Title = "Infinite Yield",
+   Content = "Powerful admin command script with commands like fly, noclip, teleport, and more."
+})
+
+UniversalTab:CreateDivider()
+
+-- TSB TAB (The Strongest Battlegrounds)
+local TSBTab = Window:CreateTab("TSB", "sword")
+TSBTab:CreateSection("The Strongest Battlegrounds - Movesets")
+
+TSBTab:CreateButton({
+   Name = "SolaraONTOP222 Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SmilerVinix/SolaraONTOP222-S-MOVESET-LMAO67/refs/heads/main/my%20moveset"))()
+   end,
+})
+
+TSBTab:CreateParagraph({
+   Title = "SolaraONTOP222",
+   Content = "Custom moveset with unique animations and abilities for TSB."
+})
+
+TSBTab:CreateDivider()
+
+TSBTab:CreateButton({
+   Name = "Freddy Fazbear Moveset",
+   Callback = function()
+      loadstring(game:HttpGet('https://paste.ee/r/BxsaW'))()
+   end,
+})
+
+TSBTab:CreateParagraph({
+   Title = "Freddy Fazbear",
+   Content = "FNAF themed moveset - become the animatronic in battlegrounds."
+})
+
+TSBTab:CreateDivider()
+
+TSBTab:CreateButton({
+   Name = "Vexor Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://paste.ee/r/PDaAI"))()
+   end,
+})
+
+TSBTab:CreateParagraph({
+   Title = "Vexor",
+   Content = "Vexor themed custom moveset with powerful combat abilities."
+})
+
+TSBTab:CreateDivider()
+
+TSBTab:CreateButton({
+   Name = "A-Train Moveset (Garou)",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/S47nEM11"))()
+   end,
+})
+
+TSBTab:CreateParagraph({
+   Title = "A-Train (Garou)",
+   Content = "The Boys inspired moveset on Garou base - super speed and brutal attacks."
+})
+
+TSBTab:CreateDivider()
+
+TSBTab:CreateButton({
+   Name = "Dark Garou",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/r4faelllaust/R4Fix/refs/heads/main/Dark-Garou-Moveset-V2"))()
+   end,
+})
+
+TSBTab:CreateParagraph({
+   Title = "Dark Garou V2",
+   Content = "Awakened Garou moveset with cosmic fear mode abilities."
+})
+
+TSBTab:CreateDivider()
+
+TSBTab:CreateButton({
+   Name = "Gojo Moveset V3",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ShamzHub/Shamzallinone/refs/heads/main/main.txt"))()
+   end,
+})
+
+TSBTab:CreateParagraph({
+   Title = "Gojo V3",
+   Content = "Satoru Gojo moveset with Limitless and Purple techniques."
+})
+
+TSBTab:CreateDivider()
+
+TSBTab:CreateButton({
+   Name = "Devil Moveset (Saitama)",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/Ke6M8CML"))()
+   end,
+})
+
+TSBTab:CreateParagraph({
+   Title = "Devil",
+   Content = "Devil themed moveset for Saitama base character."
+})
+
+TSBTab:CreateDivider()
+
+TSBTab:CreateButton({
+   Name = "Higuruma Moveset (Saitama)",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/Ev7bwkjC"))()
+   end,
+})
+
+TSBTab:CreateParagraph({
+   Title = "Higuruma",
+   Content = "Hiromi Higuruma moveset with Judgeman and Deadly Sentencing for Saitama base."
+})
+
+TSBTab:CreateDivider()
+
+-- JJS TAB (Jujutsu Shenanigans)
+local JJSTab = Window:CreateTab("JJS", "flame")
+JJSTab:CreateSection("Jujutsu Shenanigans Scripts")
+
+JJSTab:CreateButton({
+   Name = "Uro's Animations",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ManiacTheeBarescriptor/jjs/refs/heads/main/Loader"))()
+   end,
+})
+
+JJSTab:CreateParagraph({
+   Title = "Uro's Animations",
+   Content = "Custom animation pack for Jujutsu Shenanigans."
+})
+
+JJSTab:CreateDivider()
+
+JJSTab:CreateButton({
+   Name = "Viltrumite Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/NQE05bB4"))()
+   end,
+})
+
+JJSTab:CreateParagraph({
+   Title = "Viltrumite (Todo)",
+   Content = "Invincible inspired Viltrumite moveset for Todo character."
+})
+
+JJSTab:CreateDivider()
+
+JJSTab:CreateButton({
+   Name = "Ultra Instincts Dodge",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/f0465c0000aaa63b0c3037c561a4ba9c.lua"))()
+   end,
+})
+
+JJSTab:CreateParagraph({
+   Title = "Ultra Instinct Dodge",
+   Content = "Auto-dodge script with Dragon Ball Ultra Instinct animations."
+})
+
+JJSTab:CreateDivider()
+
+JJSTab:CreateButton({
+   Name = "Fly and No Clip",
+   Callback = function()
+      loadstring(game:HttpGet('https://pastebin.com/raw/BbMdFhXq'))()
+   end,
+})
+
+JJSTab:CreateParagraph({
+   Title = "Movement Utilities",
+   Content = "Fly and noclip functionality for JJS."
+})
+
+JJSTab:CreateDivider()
+
+JJSTab:CreateButton({
+   Name = "Auto Builder",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/phnnsecret-hash/AutoBuilderV3/main/script.luau", true))()
+   end,
+})
+
+JJSTab:CreateParagraph({
+   Title = "Auto Builder V3",
+   Content = "Automatically builds structures for you in-game."
+})
+
+JJSTab:CreateDivider()
+
+JJSTab:CreateButton({
+   Name = "Train Button",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/NotEnoughJack/localplayerscripts/refs/heads/main/trainbutton'))()
+   end,
+})
+
+JJSTab:CreateParagraph({
+   Title = "Train Button",
+   Content = "Quick training automation button for stat grinding."
+})
+
+JJSTab:CreateDivider()
+
+JJSTab:CreateButton({
+   Name = "Super Tze Dynamic",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/phnnsecret-hash/SuperTzeV2/refs/heads/main/Code.luau"))()
+   end,
+})
+
+JJSTab:CreateParagraph({
+   Title = "Super Tze Dynamic",
+   Content = "Dynamic version of Super Tze moveset with enhanced features."
+})
+
+JJSTab:CreateDivider()
+
+JJSTab:CreateButton({
+   Name = "Kid Goku",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/phnnsecret-hash/KidGoku/refs/heads/main/LuaU"))()
+   end,
+})
+
+JJSTab:CreateParagraph({
+   Title = "Kid Goku",
+   Content = "Dragon Ball Kid Goku themed moveset."
+})
+
+JJSTab:CreateDivider()
+
+JJSTab:CreateButton({
+   Name = "Super Tze Original",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Jujutsu-Shenanigans-super-tze-moveset-loadstring-fixed-39058"))()
+   end,
+})
+
+JJSTab:CreateParagraph({
+   Title = "Super Tze Original",
+   Content = "Original Super Tze moveset for Jujutsu Shenanigans."
+})
+
+JJSTab:CreateDivider()
+
+JJSTab:CreateButton({
+   Name = "Auto Black Flash",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/AntiByfronClub/Auto-Black-Flash/refs/heads/main/Main.luau"))()
+   end,
+})
+
+JJSTab:CreateParagraph({
+   Title = "Auto Black Flash",
+   Content = "Automatically lands Black Flash hits with perfect timing."
+})
+
+JJSTab:CreateDivider()
+
+JJSTab:CreateButton({
+   Name = "TBO Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://peeky.pythonanywhere.com/jjs"))()
+   end,
+})
+
+JJSTab:CreateParagraph({
+   Title = "TBO Hub",
+   Content = "All-in-one hub for Jujutsu Shenanigans with multiple features."
+})
+
+JJSTab:CreateDivider()
+
+-- CREDITS TAB
+local CreditsTab = Window:CreateTab("Credits", "info")
+CreditsTab:CreateSection("Hub Information")
+
+CreditsTab:CreateParagraph({
+   Title = "OFFSETUAL HUB",
+   Content = "Made by OFFSETUAL\nDiscord: https://discord.gg/ab2z3yaX62\n\nAbyss Theme\nIcons by Lucide\n\nTotal Scripts: 19"
+})
